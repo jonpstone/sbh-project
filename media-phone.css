@@ -1,0 +1,71 @@
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        /* LANDING SECTION */
+        .landing-logo {
+            position: absolute;
+            height: 5%;
+            width: auto;
+            margin: 16.7% 0 0 25%;
+            z-index: 2;
+        }
+        .landing-image {
+            height: auto;
+            max-width: 70%;
+            margin: 22.5rem 0 0 6rem;
+        }
+        .landing-message {
+            position: absolute;
+            right: -10%;
+            top: 15%;
+        }
+        .landing-message h1 {
+            font-weight: bold;
+            margin-bottom: 0%;
+            font-size: 2rem;
+        }
+        .landing-message p {
+            width: 100%;
+            margin-bottom: 2.5rem;
+            font-size: 1rem !important;
+        }
+
+        /* HIGHLIGHTS SECTION */
+        .info-highlights {
+            grid-template-columns: auto;
+        }
+        .info-box {
+            text-align: center;
+            margin: 2rem 0 1rem 4rem;
+        }
+        .info-box img {
+            float: none;
+            margin: 3rem 1rem 1rem;
+        }
+
+        /* ABOUT SECTION */
+        .info-about img {
+            width: 120%;
+            right: 33%;
+        }
+        /* FEATURES SECTION */
+        .info-features {
+            padding: .5rem 1rem;
+        }
+        .feature-title {
+            width: 95%;
+        }
+        .features-title h1 {
+            margin: 3rem 2rem 0; 
+        }
+        .features-title p {
+            padding: 5%; 
+        }
+        .grid-container {
+            grid-template-columns: auto;
+        }
+        .grid-item {
+            margin-left: -15%;
+        }
+    }
