@@ -1,12 +1,38 @@
 * {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 62.5%;
+}
+html, p {
+    font-size: 16px;
+}
+.nav-wrapper {
+    background-image: url("./images/hero-background.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+.burger-icon {
+    display: none;
+}
+.info-highlights {
+    width: 100vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+/* * {
+    font-family: 'Ubuntu', sans-serif;
 }
 p {
     font-size: 1.2rem;
 }
 .landing-hero {
     background-image: url("./images/hero-background.png");
-    height: 84.4vh;
+    height: 84.2vh;
     z-index: 1;
 }
 .landing-logo {
@@ -63,4 +89,4 @@ p {
 }
 .btn {
     background-color: #ff0059 !important;
-}
+} */

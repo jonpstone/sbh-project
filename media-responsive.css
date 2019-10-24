@@ -1,49 +1,51 @@
 @media only screen 
-    and (max-width : 375px) {
+    and (max-width: 400px) {
         /* LANDING SECTION */
         .landing-logo {
-            margin: 16.7% 0 0 25%;
-        }
-        .landing-image {
-            height: auto;
-            max-width: 70%;
-            margin: 16% 0 0 10%;
+            margin: 16% 0 0 25%;
         }
         .landing-message {
-            position: absolute;
-            right: -10%;
+            right: -8%;
             top: 15%;
         }
         .landing-message h1 {
-            font-weight: bold;
-            margin-bottom: 0%;
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
         .landing-message p {
             width: 100%;
             margin-bottom: 2.5rem;
-            font-size: 1rem !important;
+            font-size: 1.2rem !important;
+        }
+        .landing-image {
+            margin: 23.5rem 0 0 8rem;
         }
 
         /* HIGHLIGHTS SECTION */
         .info-highlights {
             grid-template-columns: auto;
+            padding: 20% 0;
         }
         .info-box {
-            text-align: left;
-            margin: 2rem 0 1rem 4rem;
+            margin: 2rem 0 1rem 2rem;
+            width: 85%;
+        }
+        .info-box h2 {
+            font-size: 1.8rem;
         }
         .info-box img {
-            float: none;
-            margin: 3rem 1rem 1rem;
+            float: left;
+            margin: 4rem 2rem 5rem 0;
         }
-
+        
         /* ABOUT SECTION */
-
+        .info-about {
+            height: 73rem;
+        }
         .info-about img {
-            width: 100%;
-            right: 33%;
-            margin-top: 4rem;
+            height: 48%;
+            position: absolute;
+            right: 6%;
+            top: 287%;
         }
 
         /* FEATURES SECTION */
