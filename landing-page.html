@@ -3,40 +3,67 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index-styles.css">
+        <script 
+            src="https://kit.fontawesome.com/d636b43870.js" 
+            crossorigin="anonymous"
+        >
+        </script>
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        >
         <link 
             rel="stylesheet" 
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
             crossorigin="anonymous"
         >
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link 
+            href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" 
+            rel="stylesheet"
+        >
+        <link 
+            href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap"
+            rel="stylesheet"
+        > 
+        <link rel="stylesheet" href="css/index.css">
         <title>MOTO</title>
     </head>
     <body>
 
         <div class="nav-wrapper">
-            <div class="hero">
-                <img class="logo" src="./images/logo.png" alt="Logo"/>
-                <img class="burger-icon" src="./images/white-hamburger-icon-8.jpg.png" alt="Hamburger Menu">
-                <img class="hero-image" src="./images/project-preview-desktop2.png" alt="Hero"/>
-                <ul class="nav-items main-nav mobile-hide">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <div class="landing-message">
-                    <h1>Moto All Solution Head</h1>
-                    <p>
-                        Nulla aliquet, erat a egestas lacinia, leo libero dapibus nisl,
-                        quis pulvinar dolor justo id turpis. Nulla odio orci.
-                    </p>
-                    <button type="button" class="btn btn-danger btn-lg">DOWNLOAD</button>
+            <div class="title-bar">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="Logo"/>
+                </div>
+                <div class="nav-options">
+                    <img
+                        class="burger-icon" 
+                        src="./images/white-hamburger-icon-9.jpg.png" 
+                        alt="Hamburger Menu"
+                    >
+                    <ul class="nav-items main-nav mobile-hide">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
             </div>
+            <div class="landing-message">
+                <h1>Moto All Solution Head</h1>
+                <p>
+                    Nulla aliquet, erat a egestas lacinia, leo libero dapibus nisl,
+                    quis pulvinar dolor justo id turpis. Nulla odio orci.
+                </p>
+                <button type="button" class="shadow-lg p-2 mb-3 btn btn-danger btn-lg">DOWNLOAD</button>
+            </div>
+            <div class="banner">
+                <img class="banner-image" src="./images/project-preview-desktop1.png" alt="Hero"/>
+            </div>
         </div>
+
         <div class="info-highlights" >
             <div class="info-box">
                 <img src="./images/service-icon.png" alt="Service Icon 1">
@@ -66,25 +93,33 @@
                 </p>
             </div>
         </div>
+
         <div class="info-about">
             <div class="about-text">
-                <h1>About Moto App</h1>
-                <p>
-                    Lorem Ipsum is slechts een proefteskt uit het drukkerij- en 
-                    zetterijwerijwezeny. Lorlpsum is de stanaard proefteskt in
-                    deze bedrijfstak sinds de 16eeeue, toen een okende drukker een
-                    zethaak met letters nam en ze husselde om een font-catalogmaken.
-                    Het heeft niet alleen vijf eeuwen.
-                </p>
-                <p>
-                    Overleefd maar is ok, vrijwel onveranderd, overgeonmen in 
-                    elektronische zetting. Het is in jaren '60 populair geworden me 
-                    de introdctie vanland Letraset velle met Lorem Ipsum passages.
-                </p>
-                <button type="button" class="btn btn-danger btn-lg">WATCH OUR VIDEO</button>
-                <img src="./images/watches.png" alt="Apple Watch">
+                <div class="narrative">
+                    <h1>About Moto App</h1>
+                    <p>
+                        Lorem Ipsum is slechts een proefteskt uit het drukkerij- en 
+                        zetterijwerijwezeny. Lorlpsum is de stanaard proefteskt in
+                        deze bedrijfstak sinds de 16eeeue, toen een okende drukker een
+                        zethaak met letters nam en ze husselde om een font-catalogmaken.
+                        Het heeft niet alleen vijf eeuwen.
+                    </p>
+                    <p>
+                        Overleefd maar is ok, vrijwel onveranderd, overgeonmen in 
+                        elektronische zetting. Het is in jaren '60 populair geworden me 
+                        de introdctie vanland Letraset velle met Lorem Ipsum passages.
+                    </p>
+                    <button type="button" class="shadow-lg p-2 mb-5 btn btn-danger btn-lg">
+                        <i class="far fa-play-circle"></i>WATCH OUR VIDEO
+                    </button>
+                </div>
+                <div class="imagery">
+                    <img src="./images/watches.png" alt="Apple Watch">
+                </div>
             </div>
         </div>
+
         <div class="info-features">
             <div class="features-title">
                 <h1>Best Features</h1>
@@ -96,7 +131,7 @@
             </div>
             <div class="grid-container">
                 <div class="grid-item">
-                    <img src="./images/circle-outline-xxl.png" alt="Circle">
+                    <i class="fas fa-bell"></i>
                     <h3>Notification Viewing</h3>
                     <p>
                         Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
@@ -104,7 +139,7 @@
                     </p>
                 </div>
                 <div class="grid-item">
-                    <img src="./images/circle-outline-xxl.png" alt="Circle">
+                    <i class="fas fa-lightbulb"></i>
                     <h3>Creative Design</h3>
                     <p>
                         Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
@@ -112,7 +147,7 @@
                     </p>
                 </div>
                 <div class="grid-item">
-                    <img src="./images/circle-outline-xxl.png" alt="Circle">
+                    <i class="fas fa-code"></i>
                     <h3>Clean Code</h3>
                     <p>
                         Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
@@ -120,7 +155,7 @@
                     </p>
                 </div>
                 <div class="grid-item">
-                    <img src="./images/circle-outline-xxl.png" alt="Circle">
+                    <i class="fas fa-comment-alt"></i>
                     <h3>Full Free Video Call</h3>
                     <p>
                         Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
@@ -128,7 +163,7 @@
                     </p>
                 </div>
                 <div class="grid-item">
-                    <img src="./images/circle-outline-xxl.png" alt="Circle">
+                    <i class="fas fa-headset"></i>
                     <h3>Great Support</h3>
                     <p>
                         Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
@@ -136,7 +171,7 @@
                     </p>
                 </div>
                 <div class="grid-item">
-                    <img src="./images/circle-outline-xxl.png" alt="Circle">
+                    <i class="fas fa-heart"></i>
                     <h3>Unlimited Features</h3>
                     <p>
                         Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
