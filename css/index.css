@@ -1,0 +1,8 @@
+@import "sections/global.css";
+@import "sections/header.css";
+@import "sections/info-quick.css";
+@import "sections/info-detail.css";
+@import "sections/footer.css";
+
+@import "media/tablet.css";
+@import "media/phone.css";

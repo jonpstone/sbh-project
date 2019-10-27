@@ -1,0 +1,68 @@
+@media screen and (max-width: 770px) {
+    .nav-wrapper {
+        grid-template-columns: none;
+        grid-template-areas: none;
+    }
+    .nav-wrapper ul li {
+        text-align: center;
+        display: none;
+    }
+    .nav-wrapper ul {
+        padding: 0;
+        margin: 0;
+    }
+    .logo {
+        padding: 1% 0 0 5%;
+    }
+    .burger-icon {
+        display: inline;
+        margin: .95% 0 0 88%;
+    }
+    .burger-icon:hover {
+        cursor: pointer;
+    }
+    .landing-message {
+        padding: 18% 0 0 5%;
+    }
+    .banner img {
+        height: 300px;
+        width: auto;
+        padding: 0;
+        margin-right: -15%;
+        float: right;
+        margin-top: 45%;
+    }
+    .landing-message p {
+        font-size: 1.5rem;
+    }
+    .info-highlights {
+        column-gap: 0;
+        padding: 0 0 7% 0;
+    }
+    .info-box {
+        margin: 14% 15% 7% 18%;
+    }
+    .info-box img{
+        margin: 5% 4% 
+    }
+    .info-features {
+        padding: 18% 0;
+    }
+    .features-title {
+        max-width: 70%;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .grid-item{
+        padding: 10% 23%;
+        background-color: #f5f5f5;
+    }
+    .grid-item h3 {
+        margin-bottom: 2%;
+    }
+    i.fas {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,26 @@
+.about-text {
+    width: 100vw;
+    margin: auto;
+    padding: 8% 10% 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6%;
+}
+.narrative {
+    padding: 0 6%;
+}
+.narrative h1 {
+    font-size: 3.5rem;
+    padding-bottom: 4%;
+}
+.narrative button {
+    margin-top: 4%;
+}
+i.far {
+    font-size: 1rem;
+    margin: 0 4%;
+    color: white;
+}
+.imagery img {
+    padding-left: 4%;
+}

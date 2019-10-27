@@ -1,0 +1,20 @@
+.info-highlights {
+    background-color: #f5f5f5;
+    width: 100vw;
+    padding: 0 7%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3%;
+}
+.info-box {
+    text-align: left;
+    margin: 25% 14%;
+}
+.info-box img {
+    float: left;
+    margin: 9% 7% 8% 0;
+}
+.info-box p {
+    padding-right: 5%;
+}
