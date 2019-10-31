@@ -10,9 +10,12 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
-        "logo logo logo nav nav"
+        "logo logo nav nav nav"
         "heroBanner heroBanner message message message"
         "heroBanner heroBanner message message message";
+}
+.nav-options {
+    grid-area: nav;
 }
 .nav-wrapper ul li {
     font-size: 1.8rem;
@@ -23,6 +26,7 @@
 }
 .nav-wrapper ul {
     padding: 0;
+    text-align: center;
 }
 .nav-wrapper a {
     outline:none;
@@ -45,7 +49,6 @@
     display: none;
 }
 .nav-options {
-    grid-area: nav;
 }
 .landing-message {
     grid-area: message;
