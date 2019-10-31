@@ -4,5 +4,6 @@
 @import "sections/info-detail.css";
 @import "sections/footer.css";
 
+@import "media/responsive.css";
 @import "media/tablet.css";
 @import "media/phone.css";

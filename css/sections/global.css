@@ -15,9 +15,9 @@ h1, h2, h3 {
     overflow: hidden;
     white-space: nowrap;
     min-width: 227px;
-    font-weight: bold;    
     background-color: #FF5E6D !important;
-    border-color: #FF5E6D !important;
-    font-size: 1rem;
+    border-color: #FF5E6D !important; 
     font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;   
 }

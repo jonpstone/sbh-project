@@ -48,8 +48,6 @@
 .burger-icon {
     display: none;
 }
-.nav-options {
-}
 .landing-message {
     grid-area: message;
     padding: 30% 0 0 10%;
