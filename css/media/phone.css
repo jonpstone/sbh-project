@@ -24,4 +24,64 @@
         min-width: 160px;
         font-size: .9rem;
     }
+    .info-box {
+        margin: 20% 8% 10%;
+        padding-left: 3%;
+    }
+    .info-box img {
+        margin: 7% 4.5% 8% 0;
+        height: 39%;
+        width: auto;
+    }
+    .info-box h2 {
+        font-size: 1.2rem;
+    }
+    .info-box p {
+        font-size: .7rem;
+    }
+    .about-text {
+        display: block;
+    }
+    .narrative {
+        padding: 0;
+    }
+    .narrative h1 {
+        font-size: 2rem;
+    }
+    .narrative p {
+        font-size: .7rem;
+    }
+    .narrative button {
+        min-width: 200px !important;
+    }
+    .imagery {
+        width: 100vw;
+    }
+    .imagery img {
+        background-color: white;
+        padding: 0;
+        max-width: 80%;
+        float: none;
+    }
+    .features-title {
+        max-width: 85%;
+    }
+    .features-title h1 {
+        font-size: 2rem;
+    }
+    .features-title p {
+        font-size: .7rem;
+    }
+    .grid-item {
+        padding: 10% 15%;
+    }
+    .grid-item h3 {
+        font-size: 1.5rem;
+    }
+    .grid-item p {
+        font-size: .7rem;
+    }
+    i.fas {
+        font-size: 1.2rem;
+    }
 }

@@ -2,6 +2,9 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 62.5%;
 }
+body {
+    padding-bottom: 20px;
+}
 html, p {
     font-size: 1rem;
 }

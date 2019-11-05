@@ -1,0 +1,20 @@
+{
+  "name": "sbh-project",
+  "version": "1.0.0",
+  "description": "Landing page for Moto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonpstone/sbh-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonpstone/sbh-project/issues"
+  },
+  "homepage": "https://github.com/jonpstone/sbh-project#readme",
+  "dependencies": {}
+}
