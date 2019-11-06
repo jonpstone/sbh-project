@@ -8,7 +8,6 @@
         text-align: center;
         display: none;
     }
-
     .nav-wrapper ul {
         padding: 0;
         margin: 0;
@@ -18,19 +17,24 @@
     }
     .burger-icon {
         display: initial;
-        height: 7%;
+        height: 8%;
         width: auto;
-        padding: 3.1% 15% 0 0;
-        margin: .95% 0 0 85%;
+        padding: 4% 8% 0 0;
+        /* margin: .95% 0 0 85%; */
+        z-index: 2;
+        float: right;
     }
     .burger-icon:hover {
         cursor: pointer;
     }
     .landing-message {
-        padding: 18% 5% 0 5%;
+        box-shadow: inset 0 .4rem 1.2rem -10px black;
+        padding: 9% 5% 0;
+        margin: 16% 0 0;
     }
     .banner {
-        padding: 60% 10% 10% 50%;
+        padding: 0;
+        margin: 60% 10% 10% 50%;
     }
     .landing-message p {
         font-size: 1.5rem;
@@ -65,5 +69,4 @@
     i.fas {
         font-size: 2.5rem;
     }
-
 }

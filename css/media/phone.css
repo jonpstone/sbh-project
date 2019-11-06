@@ -4,13 +4,13 @@
         width: auto;
     }
     .landing-message {
-        box-shadow:inset 0 .1rem .3rem -2px black;
-        padding-top: 10%;
-        margin-top: 15%;
+        box-shadow: inset 0 .4rem 1.2rem -10px black;
+        padding: 9% 5% 0;
+        margin: 16% 0 0;
     }
     .landing-message h1 {
         font-size: 2rem;
-        padding: 0;
+        padding: 5% 0 0 0;
     }
     .landing-message p {
         font-size: .9rem;
@@ -18,7 +18,11 @@
         max-width: 100%;
     }
     .banner {
-        padding: 70% 10% 10% 50%;
+        margin: 60% 5% 5% 50%;
+        padding: 10% 0 0 0;
+    }
+    .banner img {
+        padding: 0;
     }
     .btn-lg {
         min-width: 160px;

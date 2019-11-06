@@ -43,7 +43,6 @@
 .logo img {
     height: 45px;
     width: auto;
-    cursor: pointer;
 }
 .burger-icon {
     display: none;
